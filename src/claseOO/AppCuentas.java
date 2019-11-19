@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class AppCuentas {
 
+	@SuppressWarnings({ "unused", "resource" })
 	public static void main(String[] args) {
 
 		//instanciar objetos 3
