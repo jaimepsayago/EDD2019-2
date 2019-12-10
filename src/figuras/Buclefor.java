@@ -43,6 +43,39 @@ public class Buclefor {
 			}
 			System.out.println(line);
 		}
+		
+		///triagulo completo
+	/*int altura = 5;
+	for(int i1 = altura, t = 1; i1<= (i1*2)-1;i1--, t+=2) {
+		//System.out.println(i1+ "i");
+		//System.out.println(t + "t");
+		for(int s = 1; s<i1; s++) {
+			System.out.print("x");
+		}
+		for (int j=t;j!=0;j--) {
+			System.out.print("#");
+		}
+		System.out.println();
+		
+	}*/
+	
+	//FIGURA COMPLEJA
+	for(int line = 1 ; line <=4; line++) {
+		System.out.print("|");
+		for(int space = 1; space<=(line*-2+8);space++) {
+			System.out.print("X");
+		}
+		System.out.print("<>");
+		for (int dot = 1;dot<=(line*4-4);dot++) {
+			System.out.print(".");
+		}
+		System.out.print("<>");
+		for(int space=1;space<=(line*-2+8);space++) {
+			System.out.printf("X");
+		}
+	System.out.println("|");
+	}
+	
 	}
 
 }
